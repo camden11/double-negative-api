@@ -23,17 +23,17 @@
       "via": "related",
       "plugin": "upload"
     },
-    "author": {
-      "model": "user",
-      "via": "posts",
-      "plugin": "users-permissions"
-    },
     "publishDate": {
       "type": "date"
     },
     "content": {
       "required": true,
       "type": "text"
+    },
+    "author": {
+      "model": "user",
+      "via": "posts",
+      "plugin": "users-permissions"
     }
   }
 }
