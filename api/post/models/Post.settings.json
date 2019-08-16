@@ -30,11 +30,6 @@
       "required": true,
       "type": "text"
     },
-    "author": {
-      "model": "user",
-      "via": "posts",
-      "plugin": "users-permissions"
-    },
     "blurb": {
       "type": "string"
     },
@@ -42,6 +37,11 @@
       "collection": "tag",
       "via": "posts",
       "dominant": true
+    },
+    "author": {
+      "model": "user",
+      "via": "posts",
+      "plugin": "users-permissions"
     }
   }
 }

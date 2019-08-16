@@ -56,7 +56,7 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "Name": {
+    "name": {
       "type": "string"
     },
     "posts": {
