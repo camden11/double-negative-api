@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "tag",
+  "info": {
+    "name": "tag",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "posts": {
+      "collection": "post",
+      "via": "tags"
+    }
+  }
+}

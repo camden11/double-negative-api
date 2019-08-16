@@ -56,12 +56,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
+    "Name": {
+      "type": "string"
+    },
     "posts": {
       "collection": "post",
       "via": "author"
-    },
-    "Name": {
-      "type": "string"
     }
   }
 }

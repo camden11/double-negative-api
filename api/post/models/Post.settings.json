@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "post",
   "info": {
     "name": "post",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "title": {
@@ -23,9 +26,6 @@
       "via": "related",
       "plugin": "upload"
     },
-    "publishDate": {
-      "type": "date"
-    },
     "content": {
       "required": true,
       "type": "text"
@@ -34,6 +34,14 @@
       "model": "user",
       "via": "posts",
       "plugin": "users-permissions"
+    },
+    "blurb": {
+      "type": "string"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "posts",
+      "dominant": true
     }
   }
 }
