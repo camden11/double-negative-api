@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/tags",
-      "handler": "Tag.find",
+      "path": "/genres",
+      "handler": "Genre.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tags/count",
-      "handler": "Tag.count",
+      "path": "/genres/count",
+      "handler": "Genre.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tags/:_id",
-      "handler": "Tag.findOne",
+      "path": "/genres/:_id",
+      "handler": "Genre.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/tags",
-      "handler": "Tag.create",
+      "path": "/genres",
+      "handler": "Genre.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/tags/:_id",
-      "handler": "Tag.update",
+      "path": "/genres/:_id",
+      "handler": "Genre.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/tags/:_id",
-      "handler": "Tag.delete",
+      "path": "/genres/:_id",
+      "handler": "Genre.delete",
       "config": {
         "policies": []
       }

@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "tag",
   "info": {
-    "name": "tag",
+    "name": "category",
     "description": ""
   },
   "options": {
@@ -17,7 +17,7 @@
     },
     "posts": {
       "collection": "post",
-      "via": "tags"
+      "via": "categories"
     }
   }
 }

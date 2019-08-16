@@ -33,15 +33,20 @@
     "blurb": {
       "type": "string"
     },
-    "tags": {
-      "collection": "tag",
-      "via": "posts",
-      "dominant": true
-    },
     "author": {
       "model": "user",
       "via": "posts",
       "plugin": "users-permissions"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "posts",
+      "dominant": true
+    },
+    "genres": {
+      "collection": "genre",
+      "via": "posts",
+      "dominant": true
     }
   }
 }
