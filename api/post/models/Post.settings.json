@@ -47,6 +47,9 @@
       "collection": "genre",
       "via": "posts",
       "dominant": true
+    },
+    "gallery": {
+      "model": "gallery"
     }
   }
 }
