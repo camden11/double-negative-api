@@ -38,18 +38,18 @@
       "via": "posts",
       "plugin": "users-permissions"
     },
+    "gallery": {
+      "model": "gallery"
+    },
     "categories": {
       "collection": "category",
-      "via": "posts",
-      "dominant": true
+      "dominant": true,
+      "via": "posts"
     },
     "genres": {
       "collection": "genre",
-      "via": "posts",
-      "dominant": true
-    },
-    "gallery": {
-      "model": "gallery"
+      "dominant": true,
+      "via": "posts"
     }
   }
 }

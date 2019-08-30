@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "genre",
   "info": {
     "name": "genre",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "name": {
@@ -15,6 +18,9 @@
     "posts": {
       "collection": "post",
       "via": "genres"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

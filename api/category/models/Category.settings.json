@@ -18,6 +18,9 @@
     "posts": {
       "collection": "post",
       "via": "categories"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
