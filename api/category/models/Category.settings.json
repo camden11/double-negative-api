@@ -15,12 +15,12 @@
     "name": {
       "type": "string"
     },
+    "slug": {
+      "type": "string"
+    },
     "posts": {
       "collection": "post",
       "via": "categories"
-    },
-    "slug": {
-      "type": "string"
     }
   }
 }

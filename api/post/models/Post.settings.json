@@ -43,13 +43,17 @@
     },
     "categories": {
       "collection": "category",
-      "dominant": true,
-      "via": "posts"
+      "via": "posts",
+      "dominant": true
     },
     "genres": {
       "collection": "genre",
-      "dominant": true,
-      "via": "posts"
+      "via": "posts",
+      "dominant": true
+    },
+    "publishDate": {
+      "type": "date",
+      "required": true
     }
   }
 }
