@@ -54,6 +54,9 @@
     "publishDate": {
       "type": "date",
       "required": true
+    },
+    "spotifyEmbed": {
+      "type": "string"
     }
   }
 }
