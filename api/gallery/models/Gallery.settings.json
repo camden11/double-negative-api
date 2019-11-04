@@ -17,7 +17,7 @@
       "via": "related",
       "plugin": "upload"
     },
-    "Title": {
+    "title": {
       "type": "string"
     }
   }
