@@ -61,6 +61,9 @@
     "featureImageAlt": {
       "required": true,
       "type": "string"
+    },
+    "youtubeEmbed": {
+      "type": "string"
     }
   }
 }
